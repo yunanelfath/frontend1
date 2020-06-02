@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.black-bgcolor{
+  background-color: #424242 !important;
+}
+.blue-fb{
+  background-color: #3a5898 !important;
+}
+
+.blue-google{
+  background-color: #2196f3 !important;
+}
+
+.text-transform-capitalize{
+  text-transform: capitalize !important;
+}
+
+.padding-container.login{
+  margin-top: 20vh;
+}
+.full-width{
+  width: 100%;
+}
+.display-inline-block{
+  display: inline-block;
+}
+.display-flex{
+  display: flex;
+}
+.text-center{
+  text-align: center;
+}
+.hide{
+  display: none !important;
+}
+.loading{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 15px;
+}
+.MuiBottomNavigation-root{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+}
+.MuiGridList-root{
+  margin-bottom: 50px !important;
+}
+.MuiGridListTile-root{
+  margin: 15px auto;
+  border: 2px solid #ebebeb;
+  border-radius: 5px;
+  /* min-width: 90vw; */
+  display: inline-block;
+}
+.MuiGridListTile-tile img{
+  min-width: 325px;
+  min-height: 150px;
+  width: 325px;
+  height: 150px;
+}
+.search-box{
+  margin: 20px 25px;
+}
+
+.category-box{
+  margin: 0 auto;
+  display: flex;
+  overflow-x: scroll;
+  width: 90vw;
+}
+.category-box .box{
+  display: initial;
+  margin: 0 30px;
+}
+.category-box .box:first-child{
+  margin: 0;
+}
+.category-box .box .name{
+  display: block;
+  text-align: center;
+}
+.category-box .box .img{
+  display: flex;
+  width: 60px;
+  height: 60px;
+}
+.category-box .box .img img{
+  width: 100%;
+  height: 100%;
+}
+.detail-news{
+  padding: 0 20px;
+  margin: 10px 0;
+}
+.detail-news .top{
+  border: 1px solid #000;
+}
+.detail-news .top img{
+  width: 100%;
+}
+.detail-news .title{
+  padding-top: 10px;
+  font-weight: bold;
+}
+.detail-news .action{
+  margin: 25px 0;
+  text-align: right;
+}
+.detail-news .action span{
+  padding: 3px 20px;
+  border: 1px solid #000;
+  margin-left: 20px;
+}
+.list-container{
+  margin: 25px 30px;
+}
+.news-card{
+  margin: 35px 0px;
+  padding: 10px 0;
+}
+.news-card img{
+  width: 90px;
+  height: 45px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.search-box.search-page{
+  margin: 0px 20px 0px 0px;
+}
+.search-box.search-page .MuiOutlinedInput-inputAdornedStart{
+  height: 5px !important;
+}
+.top-container{
+  margin: 20px 0px;
+}
+li{
+  list-style: none !important;
+}
