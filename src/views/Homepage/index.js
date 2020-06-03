@@ -48,6 +48,8 @@ const Homepage = (props) => {
          variant="outlined"
          fullWidth
          inputProps={{
+           id: 'input-text-field',
+           value: searchValue,
            onChange:(e) =>{
              setSearchValue(e.target.value)
              if(e.target.value === ''){
