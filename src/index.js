@@ -7,7 +7,6 @@ import { setupAxios } from 'utils/axiosConfig'
 
 
 setupAxios()
-console.log(process.env.REACT_APP_API_BASE_URL)
 ReactDOM.render(
   <App />,
   document.getElementById('root')
